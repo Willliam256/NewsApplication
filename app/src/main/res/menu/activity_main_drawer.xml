@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/newsFragment"
+            android:icon="@drawable/ic_news"
+            android:title="News U.S" />
+        <item
+            android:id="@+id/techFragment"
+            android:icon="@drawable/ic_technology"
+            android:title="Technology" />
+        <item
+            android:id="@+id/scienceFragment"
+            android:icon="@drawable/ic_science"
+            android:title="Science" />
+        <item
+            android:id="@+id/healthFragment"
+            android:icon="@drawable/ic_health"
+            android:title="Health" />
+        <item
+            android:id="@+id/entertainmentFragment"
+            android:icon="@drawable/ic_entertainment"
+            android:title="Entertainment" />
+        <item
+            android:id="@+id/lifeStyleFragment"
+            android:icon="@drawable/ic_lifestyle"
+            android:title="LifeStyle" />
+        <item
+            android:id="@+id/homeFragment3"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+    </group>
+</menu>
