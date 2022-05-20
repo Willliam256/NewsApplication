@@ -14,4 +14,34 @@
         android:name="com.example.newsapplication.fragments.NewsFragment"
         android:label=""
         tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/technologyFragment"
+        android:name="com.example.newsapplication.fragments.TechnologyFragment"
+        android:label=""
+        tools:layout="@layout/fragment_technology"/>
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.example.newsapplication.fragments.BusinessFragment"
+        android:label=""
+        tools:layout="@layout/fragment_business"/>
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.example.newsapplication.fragments.HealthFragment"
+        android:label=""
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.example.newsapplication.fragments.EntertainmentFragment"
+        android:label=""
+        tools:layout="@layout/fragment_entertainment"/>
+    <fragment
+        android:id="@+id/styleFragment"
+        android:name="com.example.newsapplication.fragments.StyleFragment"
+        android:label=""
+        tools:layout="@layout/fragment_style"/>
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.newsapplication.fragments.SportsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_sports"/>
 </navigation>

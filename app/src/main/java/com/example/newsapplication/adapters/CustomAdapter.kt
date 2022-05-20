@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.newsapplication.NewsData
+import com.example.newsapplication.Data
 import com.example.newsapplication.R
 
-class NewsCustomAdapter(private val context: Context, private val arrayList:ArrayList<NewsData>):BaseAdapter() {
+class CustomAdapter(private val context: Context, private val arrayList:ArrayList<Data>):BaseAdapter() {
     override fun getCount(): Int {
         return arrayList.size
     }

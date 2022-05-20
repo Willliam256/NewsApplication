@@ -6,10 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.newsapplication.NewsData
-import com.example.newsapplication.NewsWebView
+import com.example.newsapplication.Data
+import com.example.newsapplication.WebViewInflater
 import com.example.newsapplication.R
-import com.example.newsapplication.adapters.NewsCustomAdapter
+import com.example.newsapplication.adapters.CustomAdapter
 import com.example.newsapplication.databinding.FragmentNewsBinding
 
 class NewsFragment : Fragment() {
@@ -18,7 +18,7 @@ class NewsFragment : Fragment() {
     private lateinit var newsTitle:Array<String>
     private lateinit var newsImage:Array<Int>
     private lateinit var newsLinks:Array<String>
-    private lateinit var arrayList:ArrayList<NewsData>
+    private lateinit var arrayList:ArrayList<Data>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -48,15 +48,15 @@ class NewsFragment : Fragment() {
         arrayList = arrayListOf()
 
         for (i in newsTitle.indices){
-            val rowItem = NewsData(newsTitle[i], newsImage[i])
+            val rowItem = Data(newsTitle[i], newsImage[i])
             arrayList.add(rowItem)
         }
 
-        gridView.adapter = activity?.let { NewsCustomAdapter(it, arrayList) }
+        gridView.adapter = activity?.let { CustomAdapter(it, arrayList) }
         gridView.isClickable = true
 
         gridView.setOnItemClickListener{parent, view, position, id ->
-            val intent = Intent(activity, NewsWebView::class.java)
+            val intent = Intent(activity, WebViewInflater::class.java)
 
             intent.putExtra("urls", newsLinks[position])
 

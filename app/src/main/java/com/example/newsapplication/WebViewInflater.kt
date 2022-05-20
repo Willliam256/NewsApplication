@@ -6,7 +6,7 @@ import android.view.WindowManager
 import android.webkit.WebViewClient
 import com.example.newsapplication.databinding.ActivityNewsWebViewBinding
 
-class NewsWebView : AppCompatActivity() {
+class WebViewInflater : AppCompatActivity() {
     private lateinit var binding:ActivityNewsWebViewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

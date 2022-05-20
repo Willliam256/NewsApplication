@@ -13,13 +13,13 @@
             android:icon="@drawable/ic_news"
             android:title="News U.S" />
         <item
-            android:id="@+id/techFragment"
+            android:id="@+id/technologyFragment"
             android:icon="@drawable/ic_technology"
             android:title="Technology" />
         <item
-            android:id="@+id/scienceFragment"
+            android:id="@+id/businessFragment"
             android:icon="@drawable/ic_science"
-            android:title="Science" />
+            android:title="Business" />
         <item
             android:id="@+id/healthFragment"
             android:icon="@drawable/ic_health"
@@ -29,13 +29,17 @@
             android:icon="@drawable/ic_entertainment"
             android:title="Entertainment" />
         <item
-            android:id="@+id/lifeStyleFragment"
+            android:id="@+id/styleFragment"
             android:icon="@drawable/ic_lifestyle"
             android:title="LifeStyle" />
         <item
-            android:id="@+id/homeFragment3"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/sportsFragment"
+            android:icon="@drawable/ic_sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
 
     </group>
 </menu>

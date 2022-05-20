@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsApplication">
         <activity
-            android:name=".NewsWebView"
+            android:name=".WebViewInflater"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
