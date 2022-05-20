@@ -8,38 +8,53 @@
             android:id="@+id/homeFragment"
             android:icon="@drawable/ic_home"
             android:title="Home" />
-        <item
-            android:id="@+id/newsFragment"
-            android:icon="@drawable/ic_news"
-            android:title="News U.S" />
-        <item
-            android:id="@+id/technologyFragment"
-            android:icon="@drawable/ic_technology"
-            android:title="Technology" />
-        <item
-            android:id="@+id/businessFragment"
-            android:icon="@drawable/ic_science"
-            android:title="Business" />
-        <item
-            android:id="@+id/healthFragment"
-            android:icon="@drawable/ic_health"
-            android:title="Health" />
-        <item
-            android:id="@+id/entertainmentFragment"
-            android:icon="@drawable/ic_entertainment"
-            android:title="Entertainment" />
-        <item
-            android:id="@+id/styleFragment"
-            android:icon="@drawable/ic_lifestyle"
-            android:title="LifeStyle" />
-        <item
-            android:id="@+id/sportsFragment"
-            android:icon="@drawable/ic_sports"
-            android:title="Sports" />
-        <item
-            android:id="@+id/exit"
-            android:icon="@drawable/ic_exit"
-            android:title="Exit" />
+
+        <item android:title="News And Updates"
+            android:titleCondensed="">
+            <menu>
+                <item
+                    android:id="@+id/travelFragment"
+                    android:icon="@drawable/ic_news"
+                    android:title="Travel" />
+                <item
+                    android:id="@+id/technologyFragment"
+                    android:icon="@drawable/ic_technology"
+                    android:title="Technology" />
+                <item
+                    android:id="@+id/businessFragment"
+                    android:icon="@drawable/ic_science"
+                    android:title="Business" />
+                <item
+                    android:id="@+id/healthFragment"
+                    android:icon="@drawable/ic_health"
+                    android:title="Health" />
+                <item
+                    android:id="@+id/entertainmentFragment"
+                    android:icon="@drawable/ic_entertainment"
+                    android:title="Entertainment" />
+                <item
+                    android:id="@+id/styleFragment"
+                    android:icon="@drawable/ic_lifestyle"
+                    android:title="LifeStyle" />
+                <item
+                    android:id="@+id/sportsFragment"
+                    android:icon="@drawable/ic_sports"
+                    android:title="Sports" />
+            </menu>
+        </item>
+
+        <item android:title="Action">
+            <menu>
+                <item
+                    android:id="@+id/exit"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Exit" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_person"
+                    android:title="Logout" />
+            </menu>
+        </item>
 
     </group>
 </menu>

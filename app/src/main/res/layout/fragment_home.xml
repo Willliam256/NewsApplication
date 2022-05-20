@@ -6,106 +6,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.HomeFragment">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listViewHome"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/row_item_news" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Maintenance And Repair"
-                    android:layout_gravity="center"
-                    android:textSize="23sp"
-                    android:fontFamily="@font/arimo"
-                    android:textColor="@color/teal_700"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="You Working Well With Your Machine is Our Priority. Find Quick and Easy Solution To Software and Hardware problems "
-                    android:textSize="18sp"
-                    android:textAlignment="center"
-                    android:padding="10dp"/>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/space_science"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Learning And Challenge"
-                    android:layout_gravity="center"
-                    android:textSize="23sp"
-                    android:fontFamily="@font/arimo"
-                    android:textColor="@color/teal_700"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Step By Step Guided Learning from Scratch to a star with Certification with Sololearn and the end of every Course"
-                    android:textSize="18sp"
-                    android:textAlignment="center"
-                    android:padding="10dp"
-                    android:fontFamily="@font/arimo"
-                    android:textStyle="bold"/>
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/energy_environment"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Technology News And Updates"
-                    android:layout_gravity="center"
-                    android:textSize="23sp"
-                    android:fontFamily="@font/arimo"
-                    android:textColor="@color/teal_700"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Now No Worries About Technlogy News Updates. Here we are to Provide You With The Latest News From Home area and abroad"
-                    android:textSize="18sp"
-                    android:textAlignment="center"
-                    android:padding="10dp"
-                    android:fontFamily="@font/arimo"
-                    android:textStyle="bold"/>
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/fashion_style"/>
-            </LinearLayout>
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

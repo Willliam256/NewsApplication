@@ -10,10 +10,10 @@
         android:label=""
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/newsFragment"
-        android:name="com.example.newsapplication.fragments.NewsFragment"
+        android:id="@+id/travelFragment"
+        android:name="com.example.newsapplication.fragments.TravelFragment"
         android:label=""
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/fragment_travel" />
     <fragment
         android:id="@+id/technologyFragment"
         android:name="com.example.newsapplication.fragments.TechnologyFragment"

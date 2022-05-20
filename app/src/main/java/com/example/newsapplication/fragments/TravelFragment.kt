@@ -10,10 +10,10 @@ import com.example.newsapplication.Data
 import com.example.newsapplication.WebViewInflater
 import com.example.newsapplication.R
 import com.example.newsapplication.adapters.CustomAdapter
-import com.example.newsapplication.databinding.FragmentNewsBinding
+import com.example.newsapplication.databinding.FragmentTravelBinding
 
-class NewsFragment : Fragment() {
-    private  lateinit var binding:FragmentNewsBinding
+class TravelFragment : Fragment() {
+    private  lateinit var binding:FragmentTravelBinding
 
     private lateinit var newsTitle:Array<String>
     private lateinit var newsImage:Array<Int>
@@ -24,7 +24,7 @@ class NewsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentNewsBinding.inflate(layoutInflater)
+        binding = FragmentTravelBinding.inflate(layoutInflater)
 
         //Data source
         newsLinks = arrayOf(

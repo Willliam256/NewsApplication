@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/drawable-v24/ic_exit.xml" value="0.1455" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/drawable-v24/ic_person.xml" value="0.1455" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/drawable/ic_menu.xml" value="0.1455" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/drawable/ic_news.xml" value="0.118" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/activity_news_web_view.xml" value="0.2604166666666667" />
@@ -21,7 +23,9 @@
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_technology.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/item_layout_gridview.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/nav_header_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/row_item_news.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/menu/main.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>
