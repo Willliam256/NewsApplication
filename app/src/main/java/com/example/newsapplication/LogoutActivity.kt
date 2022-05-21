@@ -8,6 +8,7 @@ import com.example.newsapplication.databinding.ActivityLogoutBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import kotlin.system.exitProcess
 
 class LogoutActivity : AppCompatActivity() {
     private lateinit var binding:ActivityLogoutBinding
@@ -23,7 +24,12 @@ class LogoutActivity : AppCompatActivity() {
         binding.logout.setOnClickListener {
             auth.signOut()
             Toast.makeText(this, "Logged Out Successfully", Toast.LENGTH_LONG).show()
-            startActivity(Intent(this, LandingActivity::class.java))
+            val intent = Intent(this, LandingActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+            finish()
+        }
+        binding.cancel.setOnClickListener {
             finish()
         }
     }
