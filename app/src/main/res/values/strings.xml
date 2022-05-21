@@ -32,4 +32,17 @@
     <string name="forgot_pw">Forgot Password ?</string>
     <string name="login_btn">Login</string>
     <string name="cnn_logo_des">cnn_logo</string>
+    <string name="news_updates_h">News Updates</string>
+    <string name="join_today">Join Today</string>
+    <string name="register_title">Register</string>
+    <string name="have_account">Have An Account ?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="dec">description</string>
+    <string name="user_name">User Name</string>
+    <string name="email_hint">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
 </resources>

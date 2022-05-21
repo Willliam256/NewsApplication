@@ -33,9 +33,7 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/cnn_logo"
-            android:contentDescription="@string/dec"
-            tools:ignore="ContentDescription" />
+            android:src="@drawable/cnn_logo" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -137,12 +135,11 @@
                 android:drawableTint="@color/black"
                 android:ems="10"
                 android:fontFamily="@font/arimo"
-                android:hint="@string/user_name"
+                android:hint="User Name"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:autofillHints="" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/registerEmail"
@@ -152,12 +149,11 @@
                 android:drawableTint="@color/black"
                 android:ems="10"
                 android:fontFamily="@font/arimo"
-                android:hint="@string/email_hint"
+                android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:minHeight="48dp"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:autofillHints="" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/registerPassword"
@@ -167,12 +163,11 @@
                 android:drawableTint="@color/black"
                 android:ems="10"
                 android:fontFamily="@font/arimo"
-                android:hint="@string/password"
+                android:hint="Password"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:autofillHints="" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/confirmPassword"
@@ -182,12 +177,11 @@
                 android:drawableTint="@color/black"
                 android:ems="10"
                 android:fontFamily="@font/arimo"
-                android:hint="@string/confirm_password"
+                android:hint="Confirm Password"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:autofillHints="" />
+                android:textSize="12sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -196,10 +190,11 @@
         android:id="@+id/btn_register"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/register"
+        android:text="Register"
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:fontFamily="@font/arimo"
+        android:backgroundTint="#1e307c"
         android:background="@drawable/btn_bg"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
