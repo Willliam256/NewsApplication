@@ -28,21 +28,20 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(layoutInflater)
 
         //Generating A data source
-        urls = arrayOf( "https://www.foxnews.com/category/tech/topics/security",
-            "https://www.foxnews.com/category/tech/topics/innovation",
-            "https://www.foxnews.com/category/tech/technologies/drones",
-            "https://www.foxnews.com/category/tech/topics/computers"
+        urls = arrayOf("https://us.cnn.com/specials/us/crime-and-justice",
+            "https://us.cnn.com/specials/us/energy-and-environment",
+            "https://us.cnn.com/weather",
+            "https://us.cnn.com/specials/space-science"
         )
-        titles = arrayOf(
-            "Security-Information security",
-            "Innovation-Technology and innovation",
-            "Drones-An unmanned aerial vehicle (UAV)",
-            "Computers-An electronic device for storing and processing data"
+        titles = arrayOf("Crime + Justice",
+            "Energy + Environment",
+            "Extreme Weather",
+            "Space + Science"
         )
 
         images = arrayOf(
-            R.drawable.cnn_logo, R.drawable.culture_ent, R.drawable.culture_ent,
-            R.drawable.culture_ent
+            R.drawable.crime_justice, R.drawable.energy_environment, R.drawable.weather,
+            R.drawable.space_science
         )
 
         val recyclerView = binding.listViewHome
