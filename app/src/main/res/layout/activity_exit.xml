@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey_light"
-    tools:context=".fragments.LogoutFragment">
+    tools:context=".ExitActivity">
 
     <LinearLayout
         android:layout_width="300dp"
@@ -23,6 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/warning"
+                android:fontFamily="@font/arimo"
                 android:layout_gravity="center_vertical"
                 android:paddingStart="20dp"
                 android:textSize="20sp"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/accept"
+                android:text="Are You Sure You Want to Exit App ?"
                 android:textColor="@color/white"
                 android:fontFamily="@font/arimo"
                 android:textSize="15sp"/>
@@ -53,7 +53,7 @@
                 android:layout_marginBottom="20dp"
                 tools:ignore="RtlSymmetry">
                 <TextView
-
+                    android:id="@+id/cancel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/cancel"
@@ -63,10 +63,10 @@
                     android:paddingEnd="20dp"
                     tools:ignore="RtlSymmetry" />
                 <TextView
-                    android:id="@+id/logout"
+                    android:id="@+id/exit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/logout"
+                    android:text="@string/exit"
                     android:fontFamily="@font/arimo"
                     android:textColor="@color/teal_700"
                     android:textSize="18sp"/>
@@ -75,6 +75,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

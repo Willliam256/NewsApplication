@@ -28,19 +28,19 @@ class TravelFragment : Fragment() {
 
         //Data source
         newsLinks = arrayOf(
-            "https://us.cnn.com/specials/us/crime-and-justice",
-            "https://us.cnn.com/specials/us/energy-and-environment",
-            "https://us.cnn.com/weather",
-            "https://us.cnn.com/specials/space-science"
+            "https://edition.cnn.com/travel/destinations",
+            "https://edition.cnn.com/travel/food-and-drink",
+            "https://edition.cnn.com/travel/stay",
+            "https://edition.cnn.com/travel/news"
         )
 
-        newsTitle = arrayOf("Crime + Justice",
-            "Energy + Environment",
-            "Extreme Weather",
-            "Space + Science"
+        newsTitle = arrayOf("Destinations",
+            "Food and Drinks",
+            "Stay",
+            "News"
         )
-        newsImage = arrayOf(R.drawable.crime_justice, R.drawable.energy_environment, R.drawable.weather,
-            R.drawable.space_science
+        newsImage = arrayOf(R.drawable.destination_travel, R.drawable.food_travel, R.drawable.stay_travel,
+            R.drawable.news_travel
         )
 
         val gridView = binding.gridViewNews

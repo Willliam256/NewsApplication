@@ -46,11 +46,11 @@
         <item android:title="Action">
             <menu>
                 <item
-                    android:id="@+id/exit"
+                    android:id="@+id/exitActivity"
                     android:icon="@drawable/ic_exit"
                     android:title="Exit" />
                 <item
-                    android:id="@+id/logout"
+                    android:id="@+id/logoutActivity"
                     android:icon="@drawable/ic_person"
                     android:title="Logout" />
             </menu>

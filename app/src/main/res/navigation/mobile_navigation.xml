@@ -50,4 +50,14 @@
         android:name="com.example.newsapplication.fragments.SportsFragment"
         android:label=""
         tools:layout="@layout/fragment_sports"/>
+    <activity
+        android:id="@+id/logoutActivity"
+        android:name="com.example.newsapplication.LogoutActivity"
+        android:label=""
+        tools:layout="@layout/activity_logout" />
+    <activity
+        android:id="@+id/exitActivity"
+        android:name="com.example.newsapplication.ExitActivity"
+        android:label="activity_exit"
+        tools:layout="@layout/activity_exit" />
 </navigation>

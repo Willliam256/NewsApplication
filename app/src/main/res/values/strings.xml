@@ -59,4 +59,6 @@
     <string name="headlines">Headlines</string>
     <string name="check">Check News Updates And Trends</string>
     <string name="news_title">Trending Title of the Details</string>
+    <string name="news_title_home">Daily US \n News + Updates</string>
+    <string name="exit">Exit</string>
 </resources>
