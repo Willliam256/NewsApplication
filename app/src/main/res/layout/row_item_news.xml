@@ -18,7 +18,8 @@
             android:id="@+id/news_image"
             android:layout_width="match_parent"
             android:layout_height="248dp"
-            android:src="@drawable/crime_justice"/>
+            android:src="@drawable/crime_justice"
+            android:contentDescription="@string/dec" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/arimo"
-                android:text="Trending Title of the Details"
+                android:text="@string/news_title"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textColor="@color/black"

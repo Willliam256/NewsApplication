@@ -21,6 +21,7 @@
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/app_bar_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/content_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_business.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_entertainment.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_gallery.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_health.xml" value="0.27447916666666666" />
@@ -32,7 +33,8 @@
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_sports.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_style.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_technology.xml" value="0.27447916666666666" />
-        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/item_layout_gridview.xml" value="0.27447916666666666" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/fragment_travel.xml" value="0.27447916666666666" />
+        <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/item_layout_gridview.xml" value="0.25" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/nav_header_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/layout/row_item_news.xml" value="0.27447916666666666" />
         <entry key="..\:/Andriod With Kotlin/Kotlin Progress Programs/NewsApplication/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />

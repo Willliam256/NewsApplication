@@ -45,4 +45,18 @@
     <string name="email_hint">Email</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="register">Register</string>
+    <string name="business_news">Business News</string>
+    <string name="entertainment_news">Entertainment News</string>
+    <string name="health_news">Health News</string>
+    <string name="warning">Warning</string>
+    <string name="accept">Are You Sure You Want to Logout ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="sports_news">Sports News</string>
+    <string name="life_style_news">Life Style News</string>
+    <string name="technology_news">Technology News</string>
+    <string name="news_u_s">News U.S</string>
+    <string name="headlines">Headlines</string>
+    <string name="check">Check News Updates And Trends</string>
+    <string name="news_title">Trending Title of the Details</string>
 </resources>
