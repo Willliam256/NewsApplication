@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301638341083",
+    "project_id": "cnnnewsapplication",
+    "storage_bucket": "cnnnewsapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301638341083:android:494f89ae4344339c7c57fe",
+        "android_client_info": {
+          "package_name": "com.example.newsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301638341083-iarodntntotkddtu58ks6jo1bnvuvmtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8t31-ehSp3h3VCbOC28a_T-BYo8TGOk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301638341083-iarodntntotkddtu58ks6jo1bnvuvmtf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
