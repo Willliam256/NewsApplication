@@ -35,6 +35,7 @@ class LandingActivity : AppCompatActivity() {
     override fun onStart() {
         if (auth.currentUser != null){
             startActivity(Intent(this, MainActivity::class.java))
+            finish()
         }
         super.onStart()
     }
