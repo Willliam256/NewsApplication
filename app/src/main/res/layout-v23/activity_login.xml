@@ -35,7 +35,9 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/cnn_logo" />
+            android:src="@drawable/cnn_logo"
+            android:contentDescription="@string/cnn_logo_des"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -139,11 +141,12 @@
                 android:drawableTint="@color/black"
                 android:ems="10"
                 android:fontFamily="@font/arimo"
-                android:hint="Email"
+                android:hint="@string/email_login"
                 android:inputType="textEmailAddress"
                 android:minHeight="48dp"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:autofillHints="" />
 
             <EditText
                 android:id="@+id/loginPassword"
@@ -153,21 +156,23 @@
                 android:drawableTint="@color/black"
                 android:ems="10"
                 android:fontFamily="@font/arimo"
-                android:hint="Password"
+                android:hint="@string/password_login"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:autofillHints="" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:fontFamily="@font/arimo"
-                android:text="Forgot Password ?"
+                android:text="@string/forgot_pw"
                 android:textColor="@color/dark_red"
                 android:textSize="10sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
 
 
 
@@ -178,7 +183,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="100dp"
         android:layout_height="35sp"
-        android:text="Login"
+        android:text="@string/login_btn"
         android:textColor="@color/white"
         android:textSize="10sp"
         android:textAllCaps="false"

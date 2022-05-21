@@ -22,4 +22,14 @@
     <string name="register_btn_welcome">Register</string>
     <string name="welcome_text">Welcome CNN News Updates</string>
     <string name="todo">TODO</string>
+    <string name="login_h1">News Updates</string>
+    <string name="login_h2">Welcome Back</string>
+    <string name="login_title">Login</string>
+    <string name="no_account">Have No Account ?</string>
+    <string name="create">Create</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="forgot_pw">Forgot Password ?</string>
+    <string name="login_btn">Login</string>
+    <string name="cnn_logo_des">cnn_logo</string>
 </resources>
