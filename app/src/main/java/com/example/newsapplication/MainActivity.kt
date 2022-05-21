@@ -39,11 +39,13 @@ class MainActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navigationViewView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
+
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.homeFragment
+                R.id.homeFragment, R.id.travelFragment, R.id.technologyFragment, R.id.businessFragment, R.id.healthFragment,
+                R.id.entertainmentFragment, R.id.styleFragment, R.id.sportsFragment
             ), drawerLayout
         )
 
