@@ -178,6 +178,7 @@
         android:layout_width="100dp"
         android:layout_height="35sp"
         android:text="Login"
+        android:textColor="@color/white"
         android:textSize="10sp"
         android:textAllCaps="false"
         android:fontFamily="@font/arimo"
