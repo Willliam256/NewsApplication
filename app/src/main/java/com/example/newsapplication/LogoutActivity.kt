@@ -3,6 +3,7 @@ package com.example.newsapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.WindowManager
 import android.widget.Toast
 import com.example.newsapplication.databinding.ActivityLogoutBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -18,6 +19,7 @@ class LogoutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLogoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         auth = Firebase.auth
 

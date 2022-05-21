@@ -14,7 +14,7 @@
             <menu>
                 <item
                     android:id="@+id/travelFragment"
-                    android:icon="@drawable/ic_news"
+                    android:icon="@drawable/ic_travel"
                     android:title="Travel" />
                 <item
                     android:id="@+id/technologyFragment"
