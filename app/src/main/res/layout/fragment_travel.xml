@@ -29,7 +29,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="50dp"
             android:fontFamily="@font/arimo"
-            android:text="@string/news_u_s"
+            android:text="@string/travel_news"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
