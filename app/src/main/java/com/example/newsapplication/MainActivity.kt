@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
     private lateinit var auth: FirebaseAuth
-    private lateinit var currentUser: FirebaseUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,7 +40,6 @@ class MainActivity : AppCompatActivity() {
 
         //setting up the firebase
         auth = FirebaseAuth.getInstance()
-        currentUser = auth.currentUser!!
 
 
         val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
@@ -89,7 +87,9 @@ class MainActivity : AppCompatActivity() {
         val headerView = navigationView.getHeaderView(0)
         val userNameNav = headerView.findViewById<TextView>(R.id.navUserName)
         val emailNav = headerView.findViewById<TextView>(R.id.navEmail)
+
         emailNav.text = intent.getStringExtra("email")
         userNameNav.text = intent.getStringExtra("userName")
+
     }
 }
