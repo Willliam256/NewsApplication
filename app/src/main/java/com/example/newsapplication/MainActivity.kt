@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         //invoking the nav function
-        navProfile()
+        //navProfile()
 
         //setting up the firebase
         auth = FirebaseAuth.getInstance()
@@ -49,6 +49,17 @@ class MainActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navigationViewView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
+
+        val headerView = navigationViewView.getHeaderView(0)
+        val emailNav = headerView.findViewById<TextView>(R.id.navEmail)
+
+        //displaying current user email on drawer
+        if (auth.currentUser != null){
+            val email = auth.currentUser!!.email
+            emailNav.text = email
+
+        }
+
 
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -81,15 +92,4 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-    //Navigation user name and email
-    private fun navProfile(){
-        val navigationView: NavigationView = binding.navView
-        val headerView = navigationView.getHeaderView(0)
-        val userNameNav = headerView.findViewById<TextView>(R.id.navUserName)
-        val emailNav = headerView.findViewById<TextView>(R.id.navEmail)
-
-        emailNav.text = intent.getStringExtra("email")
-        userNameNav.text = intent.getStringExtra("userName")
-
-    }
 }
