@@ -4,6 +4,5 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">.06</item>
         <item name="android:fontFamily">@font/arimo</item>
-        <item name="textFillColor">@color/dark_red</item>
     </style>
 </resources>

@@ -9,29 +9,56 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
         tools:ignore="UseCompoundDrawables">
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/cnn_logo"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/dec" />
-
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/arimo"
-            android:text="@string/check"
-            android:textColor="@color/white"
-            android:textSize="10sp"
-            android:textStyle="bold"
-            tools:ignore="SmallSp" />
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_profile"
+                android:layout_marginEnd="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/navUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="William97"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_light"
+                    android:fontFamily="@font/arimo"/>
+                <TextView
+                    android:id="@+id/navEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rob.okurowilliam@gmail.com"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/arimo"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 

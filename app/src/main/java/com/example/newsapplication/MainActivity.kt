@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.WindowManager
+import android.widget.TextView
 import android.widget.Toast
 import android.widget.Toolbar
 import com.google.android.material.snackbar.Snackbar
@@ -19,12 +20,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import com.example.newsapplication.databinding.ActivityMainBinding
 import com.example.newsapplication.fragments.TravelFragment
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
+    private lateinit var auth: FirebaseAuth
+    private lateinit var currentUser: FirebaseUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,10 +36,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        //invoking the nav function
+        navProfile()
+
+        //setting up the firebase
+        auth = FirebaseAuth.getInstance()
+        currentUser = auth.currentUser!!
+
+
         val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-
+        //setting up the navigation drawer
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navigationViewView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
@@ -69,5 +81,15 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    //Navigation user name and email
+    private fun navProfile(){
+        val navigationView: NavigationView = binding.navView
+        val headerView = navigationView.getHeaderView(0)
+        val userNameNav = headerView.findViewById<TextView>(R.id.navUserName)
+        val emailNav = headerView.findViewById<TextView>(R.id.navEmail)
+        emailNav.text = intent.getStringExtra("email")
+        userNameNav.text = intent.getStringExtra("userName")
     }
 }
